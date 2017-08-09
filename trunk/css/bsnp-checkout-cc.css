@@ -1,0 +1,251 @@
+.pli-ecp-wrapper, .pli-cvv-wrapper, .pli-manual-recurring-help-wrapper {
+    -webkit-box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.08);
+    background: #f2f2f2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid 6px #d8d8d8;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px 5px 5px 5px;
+    bottom: 23px;
+    position: absolute;
+    max-width: 600px;
+    min-width: 230px;
+    z-index: 1200
+}
+
+.pli-ecp-wrapper p, .pli-cvv-wrapper p, .pli-manual-recurring-help-wrapper p {
+    color: #4d4d4d;
+    font-size: 1em;
+    line-height: 16px;
+    margin: 12px 0
+}
+
+.pli-cvv-wrapper {
+    padding: 15px;
+    right: -140px;
+    width: 600px
+}
+
+.pli-cvv-wrapper .pli-cvv-visa-img {
+    background: url("../img/visa-cvv.png") no-repeat;
+    width: 113px;
+    height: 123px
+}
+
+.pli-cvv-wrapper .pli-cvv-amex-img {
+    background: url("../img/american-x-cvv.png") no-repeat;
+    width: 113px;
+    height: 123px
+}
+
+.pli-cvv-wrapper h2 {
+    color: #000;
+    font-size: 1.313em;
+    font-weight: normal
+}
+
+.pli-cvv-wrapper .pli-left-col {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 15px
+}
+
+.pli-cvv-wrapper .pli-right-col {
+    background: url("../img/dotted.png") 0 0 repeat-y;
+    float: left;
+    padding-left: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%
+}
+
+.pli-row-btm .pli-left-col {
+    float: left;
+    width: 220px
+}
+
+.pli-row-btm .pli-left-col h4 {
+    color: #000;
+    font-size: .938em;
+    font-weight: bold;
+    margin-bottom: 6px
+}
+
+.pli-row-btm .pli-left-col label {
+    display: inline-block;
+    float: left;
+    font-size: .85em;
+    line-height: 25px;
+    margin-right: 6px
+}
+
+.pli-row-btm .pli-left-col .pli-quantity-box {
+    border: solid 1px #d8d8d8;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px 5px 5px 5px;
+    float: left;
+    padding: 2px;
+    position: relative;
+    width: 51px
+}
+
+.pli-row-btm .pli-right-col {
+    float: right;
+    text-align: right;
+    width: 220px
+}
+
+.pli-row-btm .pli-right-col strong {
+    color: #000;
+    display: block;
+    font-size: 1em;
+    font-weight: bold
+}
+
+.pli-row-btm .pli-right-col span {
+    color: #acacac;
+    display: block;
+    font-size: .85em;
+    line-height: 34px
+}
+
+.pli-product-info .pli-left-col {
+    float: left
+}
+
+.pli-product-info .pli-right-col {
+    margin-left: 110px
+}
+
+.pli-product-info.pli-noimage .pli-right-col {
+    margin-left: 0 !important
+}
+
+.pli-cvv-wrapper {
+    display: none;
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    z-index: 1000;
+    width: 90%;
+    height: 45%;
+    overflow: scroll;
+}
+#bsnp_cvv_hint_mobile, .mobile_close_btn {
+    display: none;
+}
+#bsnp_cvv_hint:hover ~ .pli-cvv-wrapper {
+
+    display: block ;
+    opacity: 1;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    z-index: inherit;
+
+}
+
+
+.bsnp_checkout_table {
+    border-style : none;
+    table-layout : auto;
+    width : 100%;
+
+}
+
+.woocommerce-checkout #payment div.payment_box.payment_method_wc_gateway_bluesnap_cc .error {
+    border-color: red;
+}
+
+.bsnp_my_account_order{
+
+    color: #77d2ff;
+
+}
+
+
+
+@media (max-width: 992px) {
+    #bsnp_cvv_hint {
+        display: none;
+    }
+    #bsnp_cvv_hint_mobile, .mobile_close_btn {
+        display: block;
+    }
+}
+
+@media (max-width: 767px){
+
+    .bsnp_checkout_table > tbody >  tr > td{
+        display: block;
+        width:100%;
+
+    }
+
+    .bsnp_checkout_table > tbody >  tr > td.cvv-td{
+        width:80%;
+        float: left;
+    }
+    .bsnp_checkout_table > tbody >  tr > td.cvv-hints-td{
+        width:20%;
+        float: left;
+    }
+
+    .woocommerce-checkout #payment #creditCard,
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_month,
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_year,
+    .woocommerce-checkout #payment #cvv {
+        font-size: 0.85em;
+    }
+
+    #bsnp_return_shopper{
+        font-size: 11px !important;
+    }
+
+    .woocommerce-checkout #wc_gateway_bluesnap_cc-cc-form .defualt-credit-card-form{
+        padding: 0 1em !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (max-width: 320px){
+
+    .woocommerce-checkout #payment #creditCard {
+        font-size: 0.65em;
+    }
+
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_month,
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_year{
+        width:50%;
+        float: left;
+    }
+
+
+
+    .woocommerce-checkout #payment #creditCard,
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_month,
+    .woocommerce-checkout #payment #wc_gateway_bluesnap_cc_exp_year,
+    .woocommerce-checkout #payment #cvv {
+        font-size: 0.65em;
+    }
+    .bsnp_checkout_table{
+        margin: -25px 0 0 0;
+    }
+    .woocommerce-checkout #wc_gateway_bluesnap_cc-cc-form .defualt-credit-card-form{
+        padding: 0 1em !important;
+        margin-bottom: 0 !important;
+    }
+    #bsnp_return_shopper{
+        font-size: 11px !important;
+    }
+}

@@ -1,0 +1,99 @@
+id,currency_code,country,is_supported,bluesnap_ex_rate,last_update
+1,AED,United Arab Emirates Dirhams,Y,0,1900-01-01
+2,AFN,Afghanistan Afghanis,Y,0,1900-01-01
+3,ALL,Albania Leke,Y,0,1900-01-01
+4,AMD,New Ruble/Dram,Y,0,1900-01-01
+5,ANG,Netherlands Antillean Guilder,Y,0,1900-01-01
+6,ARS,Argentina Pesos,Y,0,1900-01-01
+7,AUD,Australia Dollars,Y,0,1900-01-01
+8,AWG,Aruban Guilder,Y,0,1900-01-01
+9,BAM,Bosnia and Herzegovina Marks,Y,0,1900-01-01
+10,BBD,Barbados Dollars,Y,0,1900-01-01
+11,BGN,Bulgaria Leva,Y,0,1900-01-01
+12,BHD,Bahraini Dinar,Y,0,1900-01-01
+13,BMD,Bermuda Dollars,Y,0,1900-01-01
+14,BND,Brunei Dollar,Y,0,1900-01-01
+15,BOB,Bolivia Boliviano,Y,0,1900-01-01
+16,BRL,Brazil Reais,Y,0,1900-01-01
+17,BSD,Bahamas Dollars,Y,0,1900-01-01
+18,BWP,Botswana Pula,Y,0,1900-01-01
+19,BYR,Belarusian Ruble,Y,0,1900-01-01
+20,CAD,Canada Dollars,Y,0,1900-01-01
+21,CHF,Switzerland Francs,Y,0,1900-01-01
+22,CLP,Chile Pesos,Y,0,1900-01-01
+23,CNY,China Yuan Renminbi,Y,0,1900-01-01
+24,COP,Colombia Pesos,Y,0,1900-01-01
+25,CRC,Costa Rica Colones,Y,0,1900-01-01
+26,CZK,Czech Republic Koruny,Y,0,1900-01-01
+27,DKK,Denmark Kroner,Y,0,1900-01-01
+28,DOP,Dominican Peso,Y,0,1900-01-01
+29,DZD,Algeria Dinars,Y,0,1900-01-01
+30,EGP,Egypt Pounds,Y,0,1900-01-01
+31,EUR,Euro,Y,0,1900-01-01
+32,FJD,Fiji Dollars,Y,0,1900-01-01
+33,GBP,United Kingdom Pounds,Y,0,1900-01-01
+34,GEL,Georgia Lari,Y,0,1900-01-01
+35,GIP,Gibraltar Pound,Y,0,1900-01-01
+36,GTQ,Guatemala Quetzal,Y,0,1900-01-01
+37,HKD,Hong Kong Dollars,Y,0,1900-01-01
+38,HRK,Croatian Kuna,Y,0,1900-01-01
+39,HUF,Hungary Forint,Y,0,1900-01-01
+40,IDR,Indonesia Rupiahs,Y,0,1900-01-01
+41,ILS,Israel New Shekels,Y,0,1900-01-01
+42,INR,India Rupees,Y,0,1900-01-01
+43,ISK,Iceland Kronur,Y,0,1900-01-01
+44,JMD,Jamaica Dollars,Y,0,1900-01-01
+45,JOD,Jordan Dinars,Y,0,1900-01-01
+46,JPY,Japan Yen,Y,0,1900-01-01
+47,KES,Kenyan Shilling,Y,0,1900-01-01
+48,KHR,Cambodia Riel,Y,0,1900-01-01
+49,KRW,South Korea Won,Y,0,1900-01-01
+50,KWD,Kuwait Dinars,Y,0,1900-01-01
+51,KYD,Caymans Islands Dollar,Y,0,1900-01-01
+52,KZT,Kazakhstani Tenge,Y,0,1900-01-01
+53,LBP,Lebanon Pounds,Y,0,1900-01-01
+54,LKR,Sri Lanka Rupee,Y,0,1900-01-01
+55,MAD,Morocco Dirhams,Y,0,1900-01-01
+56,MDL,Moldovan Leu,Y,0,1900-01-01
+57,MKD,Macedonia Denar,Y,0,1900-01-01
+58,MRO,Mauritania Ouguiya,Y,0,1900-01-01
+59,MUR,Mauritius Rupee,Y,0,1900-01-01
+60,MWK,Malawi Kwacha,Y,0,1900-01-01
+61,MXN,Mexico Pesos,Y,0,1900-01-01
+62,MYR,Malaysia Ringgits,Y,0,1900-01-01
+63,NAD,Namibian Dollar,Y,0,1900-01-01
+64,NGN,Nigeria Nairas,Y,0,1900-01-01
+65,NOK,Norway Kroner,Y,0,1900-01-01
+66,NPR,Nepalese Rupee,Y,0,1900-01-01
+67,NZD,New Zealand Dollars,Y,0,1900-01-01
+68,OMR,Oman Rial,Y,0,1900-01-01
+69,PAB,Panamanian Balboa,Y,0,1900-01-01
+70,PEN,Peruvian Sol,Y,0,1900-01-01
+71,PGK,Papua New Guinea Kina,Y,0,1900-01-01
+72,PHP,Philippines Pesos,Y,0,1900-01-01
+73,PKR,Pakistan Rupees,Y,0,1900-01-01
+74,PLN,Poland Zlotych,Y,0,1900-01-01
+75,QAR,Qatari Riyal,Y,0,1900-01-01
+76,RON,Romania New Lei,Y,0,1900-01-01
+77,RSD,Serbian Dinar,Y,0,1900-01-01
+78,RUB,Russia Rubles,Y,0,1900-01-01
+79,SAR,Saudi Arabia Riyals,Y,0,1900-01-01
+80,SCR,Seychelles Rupee,Y,0,1900-01-01
+81,SDG,Sudanese Pound,Y,0,1900-01-01
+82,SEK,Sweden Kronor,Y,0,1900-01-01
+83,SGD,Singapore Dollars,Y,0,1900-01-01
+84,THB,Thailand Baht,Y,0,1900-01-01
+85,TND,Tunisian Dollar,Y,0,1900-01-01
+86,TRY,Turkey New Lira,Y,0,1900-01-01
+87,TTD,Trinidad and Tobago Dollars,Y,0,1900-01-01
+88,TWD,Taiwan New Dollars,Y,0,1900-01-01
+89,TZS,Tanzanian Shilling,Y,0,1900-01-01
+90,UAH,Ukrainian Hryvnia,Y,0,1900-01-01
+91,USD,US Dollar,Y,0,1900-01-01
+92,UYU,Peso Uruguayo,Y,0,1900-01-01
+93,UZS,Uzbekistan Sum,Y,0,1900-01-01
+94,VEF,Venezuela Bolivares Fuertes,Y,0,1900-01-01
+95,VND,Vietnam Dong,Y,0,1900-01-01
+96,XCD,East Caribbean Dollars,Y,0,1900-01-01
+97,XOF,CFA Francs BCEAO,Y,0,1900-01-01
+98,ZAR,South Africa Rand,Y,0,1900-01-01

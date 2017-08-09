@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BlueSnap\n"
+"POT-Creation-Date: 2016-03-30 12:39+0200\n"
+"PO-Revision-Date: 2016-03-30 12:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: FiSHa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: /Users/fisha/Workspace/bluesnap/wp-content/plugins/"
+"bluesnap\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bluesnap-gateway.php:137
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL "
+"certificate on your checkout page. Please ensure that you have a valid SSL "
+"certificate and that you are <a href=\"%s\">forcing the checkout pages to be "
+"secured.</a> You will not be able to use this Gateway without SSL in "
+"production mode"
+msgstr ""
+
+#: bluesnap-gateway.php:150
+msgid "BlueSnap payment gateway MUST have "
+msgstr ""
+
+#: bluesnap-gateway.php:150
+msgid "WooCommerce"
+msgstr ""
+
+#: bluesnap-gateway.php:150
+msgid "plugin installed and active in order to run."
+msgstr ""
+
+#: bluesnap-gateway.php:168
+msgid ""
+"Minimal WordPress version to run BlueSnap payment gateway is 4.1 please "
+"update you version and try again. "
+msgstr ""
+
+#: bluesnap-gateway.php:202
+#, php-format
+msgid ""
+"In order to use BlueSnap payment gateway you <b>MUST</b> <a href=\"%s\">set</"
+"a> your permalink structure to something other than \"default\""
+msgstr ""
+
+#: bluesnap-gateway.php:235
+#, php-format
+msgid ""
+"Your store currency ( %s ) is not locally supported by BlueSnap all charges "
+"will be converted to USD ($) "
+msgstr ""
+
+#: bluesnap-gateway.php:246
+#, php-format
+msgid ""
+"Your local currency ( %s ) is not supported by this plugin click <a href ="
+"\"%s\"> here </a> to change you store settings"
+msgstr ""
+
+#: bluesnap-gateway.php:424
+msgid "CSE Settings"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:37
+msgid "BlueSnap Card Payments"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:38
+msgid "BlueSnap Payment Gateway Plug-in for WooCommerce"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:114
+msgid "BlueSnap payment using Credit/Debit Card"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:115
+msgid "Enable BlueSnap payment via Credit/Debit Card"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:120
+msgid "Sandbox mode for Credit/Debit Card"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:121
+msgid "Enable Sandbox mode for Credit/Debit Card"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:123
+msgid "Place BlueSnap payment gateway in testing mode"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:127
+msgid "Title"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:129
+msgid "Type here the name that you want the user to see"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:133
+msgid "Description"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:135
+msgid "Enter your payment method description here (optional)"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:139
+msgid "API username"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:141
+msgid ""
+"This is the API Username provided by BlueSnap when you signed up for an "
+"account."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:147
+msgid ""
+"This is the API Password provided by BlueSnap when you signed up for an "
+"account."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:153
+msgid "Store id provided by BlueSnap when you signed up for an account."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:157
+msgid "Order contract id"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:159 classes/class-bluesnap-cc.php:165
+msgid "This is the contract id provided to you by BlueSnap."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:163
+msgid "Subscriptions contract id"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:169
+msgid "CSE key"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:171
+msgid "Client Side Encryption (CSE) Key, provided to you by BlueSnap."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:175
+msgid "Keep logs for (days)"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:177
+msgid "We recommend 90 days "
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:286
+msgid ""
+"We were unable to retrieve your saved Credit/Debit Card please try again "
+"later"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:291
+msgid "Or, use a different card"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:312
+msgid "Please note that you will be charged in USD($)"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:321
+msgid "Expiration Date (Month/Year)"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:390
+msgid "Data integrity failure."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:610
+#, php-format
+msgid "Refunded with the amount of %s"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:612
+msgid "Refunded successfully"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:627 helper/fisha-bsnp-api.php:45
+msgid ""
+"Unfortunately an error has occurred and your payment cannot be processed at "
+"this time, please verify your payment details or try again later."
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:630
+msgid "Error: Order was not sent to merchant 'Please see logs for more info'"
+msgstr ""
+
+#: classes/class-bluesnap-cc.php:810
+#, php-format
+msgid "Refund failed, please contact merchant at \"%s\" for more details"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:195
+#, php-format
+msgid ""
+"Please note that currency %s returned bad exchange rate, and therefore can "
+"not be used in the store | <a href=\"%s\">Hide Notice</a>"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:291
+msgid "Unable to retrieve currency exchange rates, please try again later"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:475
+msgid "BlueSnap Currency converter"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:476
+msgid "Currency exchange rates are being automatically updated daily"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:482
+msgid "Enable BlueSnap currency converter"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:483
+msgid "Check this option to allow BlueSnap currency converter"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:488
+msgid "Select currencies to display in your shop"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:530
+msgid "Updating rates, please wait... May take up to two minutes"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:601
+#, php-format
+msgid ""
+"NOTE: Actual charge for this subscription is %.2f %s up front, and %.2f %s "
+"for each renewal"
+msgstr ""
+
+#: classes/class-bluesnap-currency-switcher.php:603
+#, php-format
+msgid "NOTE: Actual charge for this order was: %.2f %s"
+msgstr ""
+
+#: helper/fisha-admin-html.php:16
+msgid "Use this url in BlueSnap store account, in order to define IPN:"
+msgstr ""
+
+#: helper/fisha-admin-html.php:29
+msgid "Month"
+msgstr ""
+
+#: helper/fisha-admin-html.php:46
+msgid "Year"
+msgstr ""
+
+#: helper/fisha-bsnp-api.php:124 helper/fisha-bsnp-validation.php:394
+#: helper/fisha-bsnp-validation.php:407
+msgid "Unknown error has occurred"
+msgstr ""
+
+#: helper/fisha-bsnp-ipn.php:31 helper/fisha-bsnp-ipn.php:44
+msgid "Payment received"
+msgstr ""
+
+#: helper/fisha-bsnp-ipn.php:35
+msgid "Refunded due to Charge-back"
+msgstr ""
+
+#: helper/fisha-bsnp-ipn.php:40
+msgid "Payment declined"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:170
+msgid "Refresh logs"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:227
+msgid "BlueSnap Logger"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:229
+msgid "Filter results by: "
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:280
+msgid "From: "
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:284
+msgid "Until: "
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:288
+msgid "Sort logs by date:"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:289
+msgid "Newest first"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:290
+msgid "Oldest first"
+msgstr ""
+
+#: helper/fisha-bsnp-logger.php:302
+msgid "User (email address): "
+msgstr ""
+
+#: helper/fisha-bsnp-subscription.php:63
+msgid "Payment renewal sent to BSNP"
+msgstr ""
+
+#: helper/fisha-bsnp-subscription.php:268
+msgid "Failed to retrieve subscription data"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:84
+#, php-format
+msgid "Billing first name must be at least %s characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:92
+#, php-format
+msgid "Billing first name must be %s (or less) characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:102
+#, php-format
+msgid "Shipping first name must be at least %s characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:110
+#, php-format
+msgid "Shipping first name must be %s (or less) characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:128
+#, php-format
+msgid "Billing last name must be at least %s characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:136
+#, php-format
+msgid "Billing last name must be %s (or less) characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:146
+#, php-format
+msgid "Shipping last name must be at least %s characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:155
+#, php-format
+msgid "Shipping last name must be %s (or less) characters long"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:192
+msgid "Please enter credit card number"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:202
+msgid "The number of digits entered is not suitable for your card type"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:219
+msgid "Please enter cvv number"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:229
+msgid "CVV number should be 4 digits for AMEX or 3 digits for all other cards"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:250
+msgid "Please enter card expiry date"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:258
+msgid "Your exp year is incorrect"
+msgstr ""
+
+#: helper/fisha-bsnp-validation.php:267
+msgid "Your exp month is incorrect"
+msgstr ""
+
+#: templates/my-account.php:7
+#, php-format
+msgid ""
+"%s Please note: %s When using %s, subscription renewal prices in store "
+"currency might be different than original price due to changes in currency "
+"rates. %s\n"
+"                      This will not affect you, as any charges will be done "
+"on the currency of your choice, and these values will be the same at every "
+"subscription renewal. Any refunds will also be applied in the same currency "
+"the initial purchase was done. %s"
+msgstr ""
